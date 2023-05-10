@@ -21953,7 +21953,7 @@ ak6(a,b){var s=0,r=A.Y(t.z),q,p,o
 var $async$ak6=A.Z(function(c,d){if(c===1)return A.V(d,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.a2(A.aGc(A.j6("http://52.12.223.137/api/ditar/v1"+a,0,null),A.aC(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$ak6)
+return A.a2(A.aGc(A.j6("https://api-ditar.azurewebsites.net/v1"+a,0,null),A.aC(["Content-Type","application/x-www-form-urlencoded"],p,p)),$async$ak6)
 case 3:o=d
 if(o.b===200){q=B.aZ.dn(0,A.aFX(J.b9(A.aDP(o.e).c.a,"charset")).dn(0,o.w))
 s=1
